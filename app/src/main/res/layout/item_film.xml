@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+
+    <TextView
+        android:id="@+id/tvItemJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Judul"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/ivItemCover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dee3e7"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/poster" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvItemDurasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:text="Durasi"
+            android:textColor="#abaabc"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvItemGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Genre"
+            android:textColor="#abaabc"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearItemGaris"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6"
+        android:orientation="vertical"></LinearLayout>
+
+
+</LinearLayout>
