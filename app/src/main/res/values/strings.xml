@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">MyCinema</string>
+    <string name="app_name">Telskop</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Hello Movie!</string>
+    <string name="slide_1_desc">The easiest way to find your favorite movie!</string>
+
+    <string name="slide_2_title">Theater</string>
+    <string name="slide_2_desc">Make your day with your lovely person to watching movie!</string>
+
+    <string name="slide_3_title">Schedule</string>
+    <string name="slide_3_desc">Check the schedule of movie you want to watch!</string>
+
+    <string name="slide_4_title">Watching</string>
+    <string name="slide_4_desc">So, lets watching movie in your own town</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>

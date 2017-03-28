@@ -42,7 +42,7 @@
             android:id="@+id/imageView2"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@drawable/icon" />
+            app:srcCompat="@drawable/cinema" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -64,7 +64,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ErcodeStudio.com"
+            android:text="Andra, Wulan, Faiz, Ridjal"
             android:textAlignment="center"
             android:textColor="#fff" />
 
